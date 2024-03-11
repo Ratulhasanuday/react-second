@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Counter'
 import Team from './Team'
+import User from './User'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <h1>React Core Conceps 2</h1>
+      <User></User>
       <Team></Team>
       <Counter></Counter>
       <button onClick={handleClick}>Click Me</button>
